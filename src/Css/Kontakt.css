@@ -1,0 +1,54 @@
+.Kontakt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 43px;
+}
+
+.contact--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(56, 56, 56);
+  height: 723px;
+  width: 100%;
+}
+
+.contact--left {
+  overflow: hidden;
+  width: 50%;
+  height: 700px;
+}
+
+.contact--right {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  height: 700px;
+  padding: 20px 50px 50px 50px;
+}
+
+.boss {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.contact--title {
+  padding: 16px 16px 0px 16px;
+  font-size: 2em;
+  color: red;
+}
+
+.contact--text {
+  padding: 18px;
+  line-height: 130%;
+  color: white;
+}
+
+.map {
+  padding: 10px 0px 10px 0px;
+  width: 650px;
+}

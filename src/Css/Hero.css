@@ -1,5 +1,11 @@
-.hero {
-  background-color: white;
+.hero--container {
+  justify-content: center;
+  align-items: center;
+  background: black;
+  overflow: hidden;
+  height: 770px;
+  max-width: 100vw;
+  position: relative;
 }
 
 .font {
@@ -7,32 +13,17 @@
   background-color: green;
 }
 
-.flex-column {
-  display: flex;
-  flex-direction: column;
-  height: 20vh;
-  margin-top: 80px;
-  background-color: green;
-}
-.stare {
-  padding: 10px;
-  border: 1px solid turquoise;
-  margin: 70px 10px 10px 10px;
-  border-radius: 4px;
-}
 .gravemaskinetest {
   padding: 0px;
   border: 0px solid gray;
-  margin: 40px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
   border-radius: 0px;
-  width: 100vw;
 }
 .gravemaskinecrop {
-  width: 100vw; /* width of container */
-  height: 600px; /* height of container */
   object-fit: cover;
   border: 0px solid aliceblue;
-  object-position: ;
+  transition: width 12s linear;
+  position: absolute;
 }
 
 .column--links {
@@ -46,21 +37,34 @@
 }
 
 .text--box {
-  background-color: rgb(0, 0, 0); /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
-  backdrop-filter: blur(5px);
   color: red;
   font-weight: bold;
-  border: 3px solid #f1f1f1;
   position: absolute;
-  top: 30%;
-  left: 50%;
+  top: 70%;
+  left: 17%;
   transform: translate(-50%, -50%);
   z-index: 2;
-  width: 20%;
+  width: 15%;
   padding: 10px;
-  text-align: center;
-  font-size: 40px;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  z-index: 0;
+  text-align: left;
+  font-size: 90px;
+  z-index: 1;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+
+.unzoomed {
+  width: 100vw;
+}
+.zoomed {
+  width: 135vw;
+}
+
+.rendered {
+  opacity: 0.35;
+}
+
+.hidden {
+  opacity: 0.00;
 }

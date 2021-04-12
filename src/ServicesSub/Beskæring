@@ -1,0 +1,21 @@
+import React, {userState, useEffect} from "react";
+
+import BeskæringHero from "../ServicesSub/BeskæringHero"; 
+
+const Beskæring = (props) => {
+  
+  useEffect(() => {
+    window.scrollTo(0, 0)
+    
+  }, [])
+
+  props.setUserLocation("Beskæring");
+  return (
+    <div>
+      <BeskæringHero />
+      Test
+    </div>
+  );
+};
+
+export default Beskæring;

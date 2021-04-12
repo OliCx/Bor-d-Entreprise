@@ -1,0 +1,343 @@
+.notCurrent--projekter {
+  color: transparent;
+  text-decoration: none;
+}
+
+.projekterabout--container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.projekterabout--container--one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+.projekterabout--container--one--title {
+  display: flex;
+  justify-content: center;
+  width: 20%;
+  margin-top: 50px;
+}
+
+.projekterabout--container--one--title--text {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #9e0505;
+  border-bottom: solid tomato 3px;
+  width: 400px;
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.projekterabout--container--one--nav {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 400px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  color: red;
+}
+
+.projekterabout--container--one--nav--title {
+  display: flex;
+  width: 100%;
+  padding: 15px 15px 15px 500px;
+  text-align: center;
+}
+
+.projekterabout--container--one--nav--row--one {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.projekterabout--container--one--nav--row--two {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.projekterabout--container--one--nav--item--one {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 250px;
+  background: url("../Assets/Maskinudlejning1-backdrop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 45%;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(20px);
+  z-index: 1;
+  color: transparent;
+  transition: linear 1s;
+}
+
+.projekterabout--container--one--nav--item--one:hover {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 250px;
+  background: url("../Assets/Maskinudlejning1-backdrop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 45%;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(20px);
+  z-index: 1;
+  color: White;
+  transition: linear 1s;
+}
+
+.projekterabout--container--one--nav--item--one--text {
+  display: flex;
+  text-align: center;
+  font-size: 40px;
+}
+
+.projekterabout--container--one--nav--item--two {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 250px;
+  background: url("../Assets/Entreprenørarbejde-backdrop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 59%;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(20px);
+  z-index: 1;
+  color: transparent;
+  transition: linear 1s;
+}
+
+.projekterabout--container--one--nav--item--two:hover {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 250px;
+  background: url("../Assets/Entreprenørarbejde-backdrop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 59%;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(20px);
+  z-index: 1;
+  color: White;
+  transition: linear 1s;
+}
+
+.projekterabout--container--one--nav--item--three {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 250px;
+  background: url("../Assets/Beskæring1-backdrop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 55%;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(20px);
+  z-index: 1;
+  color: transparent;
+  transition: linear 1s;
+}
+
+.projekterabout--container--one--nav--item--three:hover {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 250px;
+  background: url("../Assets/Beskæring1-backdrop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 55%;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(20px);
+  z-index: 1;
+  color: White;
+  transition: linear 1s;
+}
+
+.projekterabout--container--one--nav--item--four {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 250px;
+  background: url("../Assets/Træfældning-backdrop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 45%;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(20px);
+  z-index: 1;
+  color: transparent;
+  transition: linear 1s;
+}
+
+.projekterabout--container--one--nav--item--four:hover {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 250px;
+  background: url("../Assets/Træfældning-backdrop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 45%;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(20px);
+  z-index: 1;
+  color: White;
+  transition: linear 1s;
+}
+
+.projekterabout--container--one--nav--text {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #9e0505;
+  width: 400px;
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.projekterabout--container--one--title {
+  display: flex;
+  justify-content: center;
+  width: 20%;
+  margin-top: 50px;
+}
+
+.projekterabout--container--one--title--text {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #9e0505;
+  border-bottom: solid tomato 3px;
+  width: 400px;
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.projekterabout--container--work--meta {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  background-color: rgb(56, 56, 56);
+}
+
+.projekterabout--container--work {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+}
+
+.projekterabout--container--work--one {
+  display: flex;
+}
+
+.projekterabout--container--work--two {
+  display: flex;
+  flex-direction: column;
+}
+
+.projekt--one--container {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(20px);
+  z-index: 1;
+  color: transparent;
+  transition: linear 1s;
+}
+
+.projekt--one--image {
+  width: 100%;
+  height: 130%;
+  object-fit: cover;
+  overflow: hidden
+}
+
+.projekt--two--container {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  height: 250px;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(20px);
+  z-index: 1;
+  color: transparent;
+  transition: linear 1s;
+}
+
+.projekt--two--image {
+  width: 100%;
+  height: 130%;
+  object-fit: cover;
+  overflow: hidden
+}
+
+
+.projekt--five--container {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(20px);
+  z-index: 1;
+  color: transparent;
+  transition: linear 1s;
+}
+
+.projekt--five--image {
+  width: 100%;
+  height: 130%;
+  object-fit: cover;
+  overflow: hidden
+}
+
+
+.projekt--seven--container {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 250px;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(20px);
+  z-index: 1;
+  color: transparent;
+  transition: linear 1s;
+}
+
+.projekt--seven--image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden
+}
+

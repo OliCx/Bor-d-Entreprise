@@ -2,8 +2,9 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-  background-color: white;
 }
+
+/* font-family: 'Poppins', sans-serif; */
 
 body {
   font-size: 16px;
@@ -20,21 +21,20 @@ body {
   align-items: center;
 }
 
-a:link {
-  color: white;
+.current {
+  color: red;
+  border-top: 5px solid red;
+  padding-top: 0px;
+  text-shadow: 0 0 20px red;
 }
 
-/* visited link */
-a:visited {
+.notCurrent {
   color: white;
+  padding-top: 5px;
 }
 
-/* mouse over link */
-a:hover {
-  color: white;
-}
+a { color:gray } /* Globally */
 
-/* selected link */
-a:active {
-  color: white;
-}
+/* Each state */
+
+

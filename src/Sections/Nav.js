@@ -1,27 +1,39 @@
 import React from "react";
+import { Link } from "@reach/router";
 
 import "../Css/Nav.css";
 import flooop from "../Assets/flooop.png";
 
-const Nav = () => {
+const Nav = (props) => {
+  
   return (
     <div className="nav">
       <div className="logo--box">
-        <img className="logo" src={flooop} />
+        Borød Entreprise
       </div>
-      <a href="#top" className="nav--link push">
+      <div className="nav--flex">
+      <Link to="/" className={`nav--link push ${
+          props.myLocation == "Home" ? "current" : "notCurrent"
+        }`}>
         Forside
-      </a>{" "}
-      <a href="#top" className="nav--link">
-        Om os
-      </a>{" "}
-      <a href="#top" className="nav--link button--hover">
+      </Link>
+      {/* <Link to="/projekter" className={`nav--link ${
+          props.myLocation == "Projekter" ? "current" : "notCurrent"
+        }`}>
         Projekter
-      </a>
-      <a href="#about" className="nav--link push1">
+      </Link>  */}
+      <Link to="/services" className={`nav--link button--hover ${
+          props.myLocation == "Services" ? "current" : "notCurrent"
+        }`}>
+        Vi udfører
+      </Link>
+      <Link to="/kontakt" className={`nav--link push1 ${
+          props.myLocation == "Kontakt" ? "current" : "notCurrent"
+        }`}>
         Kontakt
-      </a>
-      <div className="logo--box"></div>
+      </Link>
+      </div>
+      <div className="logo--box"></div>      
     </div>
   );
 };

@@ -1,0 +1,58 @@
+.CTA {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: rgb(56, 56, 56);
+  height: 250px;
+}
+
+.CTA--text--box {
+  width: 800px;
+  text-align: center;
+  padding: 50px;
+  margin-right: 0px;
+}
+
+.CTA--title {
+  padding: 16px 16px 0px 16px;
+  font-size: 2em;
+  color: red;
+}
+
+.CTA--text {
+  padding: 18px 0px 0px 0px;
+  line-height: 130%;
+  color: white;
+}
+
+.CTA--buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  padding: 50px;
+  margin: 0px 90px 0px 140px;
+}
+
+.CTA--button {
+  display: inline-block;
+  padding: 10px 38px 10px 38px;
+  border-radius: 4px;
+  font-size: 26px;
+  font-weight: 600;
+  width: 1600px;
+  background: rgb(56, 56, 56);
+  border: 2px red solid;
+  color: red;
+  margin: 15px;
+  text-decoration: none;
+  transition: linear 0.15s;
+  text-align: center;
+}
+
+.CTA--button:hover {
+  text-shadow: 0 0 2px red;
+  box-shadow: 0 0 16px red;
+  margin: 14px 16px 16px 14px;
+}
