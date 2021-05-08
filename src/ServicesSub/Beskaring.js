@@ -1,6 +1,7 @@
 import React, { userState, useEffect } from 'react';
 
 import BeskaringHero from './BeskaringHero';
+import BeskaringGallery from './BeskaringGallery';
 
 const Beskaring = (props) => {
     useEffect(() => {
@@ -12,6 +13,7 @@ const Beskaring = (props) => {
     return (
         <div>
             <BeskaringHero />
+            <BeskaringGallery />
         </div>
     );
 };

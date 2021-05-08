@@ -1,134 +1,224 @@
 .Services {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding-top: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 43px;
 }
 
 .services--title {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  color: #9e0505;
-  border-bottom: solid tomato 3px;
-  width: 400px;
-  margin-bottom: 40px;
-  padding-top: 80px;
-  padding-bottom: 10px;
-  text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #9e0505;
+    border-bottom: solid tomato 3px;
+    width: 400px;
+    margin-bottom: 40px;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    text-align: center;
 }
 
 .content--container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 100%;
-  background: rgb(56, 56, 56);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background: rgb(56, 56, 56);
 }
 
 .content--row {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 500px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
 }
 
 .content--image {
-  width: 50%;
-  overflow: hidden;
+    width: 50%;
+    overflow: hidden;
 }
 
 .orson--img {
-  width: 100%;
-  height: 140%;
-  object-fit: cover;
-  overflow: hidden
+    width: 100%;
+    height: 140%;
+    object-fit: cover;
+    overflow: hidden;
 }
 
 .orson--img2 {
-  width: 100%;
-  height: 130%;
-  object-fit: cover;
-  overflow: hidden
+    width: 100%;
+    height: 130%;
+    object-fit: cover;
+    overflow: hidden;
 }
 
 .orson--img3 {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  overflow: hidden
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
 }
 
 .orson--img4 {
-  width: 100%;
-  height: 150%;
-  object-fit: cover;
-  overflow: hidden
+    width: 100%;
+    height: 150%;
+    object-fit: cover;
+    overflow: hidden;
 }
 
 .orson--img5 {
-  width: 100%;
-  height: 190%;
-  object-fit: cover;
-  overflow: hidden
+    width: 100%;
+    height: 190%;
+    object-fit: cover;
+    overflow: hidden;
 }
 
 .orson--img6 {
-  width: 100%;
-  height: 150%;
-  object-fit: cover;
-  overflow: hidden
+    width: 100%;
+    height: 150%;
+    object-fit: cover;
+    overflow: hidden;
 }
 
 .orson--img7 {
-  width: 100%;
-  height: 150%;
-  object-fit: cover;
-  overflow: hidden
+    width: 100%;
+    height: 150%;
+    object-fit: cover;
+    overflow: hidden;
 }
 
 .orson--img8 {
-  width: 100%;
-  height: 150%;
-  object-fit: cover;
-  overflow: hidden
+    width: 100%;
+    height: 150%;
+    object-fit: cover;
+    overflow: hidden;
 }
 
 .content--text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
 }
 
 .content--title--left {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  color: red;
-  font-size: 2em;
-  border-right: 1px solid red;
-  padding: 40px 35px 40px 0px;
-  height: 200px;
-  font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    font-size: 2em;
+    border-right: 1px solid red;
+    padding: 40px 35px 40px 0px;
+    height: 200px;
+    font-weight: bold;
 }
 
 .content--title--right {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  color: red;
-  font-size: 2em;
-  border-left: 1px solid red;
-  padding: 40px 0px 40px 35px;
-  height: 200px;
-  font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    font-size: 2em;
+    border-left: 1px solid red;
+    padding: 40px 0px 40px 35px;
+    height: 200px;
+    font-weight: bold;
 }
 
 .content--text {
-  padding: 18px;
-  line-height: 130%;
-  color: white;
+    padding: 18px;
+    line-height: 130%;
+    color: white;
+}
+
+:root {
+    --height: 250px;
+    --lightBoxHeight: 800px;
+}
+
+.big-red {
+    height: 100%;
+    width: calc(var(--height) * 16 / 9);
+    background-color: red;
+}
+
+.big-blue {
+    height: 100%;
+    width: calc(var(--height) * 16 / 9);
+    background-color: blue;
+}
+
+.lil-red {
+    height: 100%;
+
+    width: calc(var(--height) * 16 / 9);
+    background-color: red;
+}
+
+.lil-blue {
+    height: 100%;
+
+    width: calc(var(--height) * (16 / 9));
+    background-color: blue;
+}
+
+.tall-red {
+    height: 100%;
+
+    width: calc(var(--height) * (9 / 16));
+    background-color: red;
+}
+
+.tall-blue {
+    height: 100%;
+
+    width: calc(var(--height) * (9 / 16));
+    background-color: blue;
+}
+
+.gallery-container {
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.gallery-section {
+    border: 3px solid yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: var(--height);
+}
+
+.full-overlay {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 100px 0px 0px 0px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.lightbox-container {
+    width: 80%;
+    height: var(--lightBoxHeight);
+    display: flex;
+    justify-content: center;
+}
+
+.height-override {
+    height: var(--lightBoxHeight);
+    width: calc(var(--lightBoxHeight) * (16 / 9));
+}
+
+.width-override {
+    width: calc(var(--lightBoxHeight) * (9 / 16));
 }
