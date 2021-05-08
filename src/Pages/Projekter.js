@@ -1,22 +1,20 @@
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect } from 'react';
 
-import Projekterhero from "../Sections/Projekterhero";
-import Projekterabout from "../Sections/Projekterabout"
+import Projekterhero from '../Sections/Projekterhero';
+import Projekterabout from '../Sections/Projekterabout';
 
 const Projekter = (props) => {
-  
-  useEffect(() => {
-    window.scrollTo(0, 0)
-    
-  }, [])
+    useEffect(() => {
+        window.scrollTo(0, 0);
+        props.setUserLocation('Projekter');
+    }, []);
 
-  props.setUserLocation("Projekter");
-  return (
-    <div>
-      <Projekterhero />
-      <Projekterabout />
-    </div>
-  );
+    return (
+        <div>
+            <Projekterhero />
+            <Projekterabout />
+        </div>
+    );
 };
 
 export default Projekter;
