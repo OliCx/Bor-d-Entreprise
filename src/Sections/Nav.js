@@ -40,7 +40,7 @@ const Nav = (props) => {
                 >
                     Kontakt
                 </Link>
-                <Link to='/beskaring'>Beskaring</Link>
+                
             </div>
             <div className='logo--box'></div>
         </div>

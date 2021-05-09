@@ -14,11 +14,35 @@
   
   .gravemaskinecrop--projekter {
     width: 100vw; /* width of container */
-    height: 600px; /* height of container */
+    height: 700px; /* height of container */
     object-fit: cover;
     border: 0px solid aliceblue;
   }
   
+  .gravemaskinecrop--stubfrasning {
+    width: 100vw; /* width of container */
+    height: 700px; /* height of container */
+    object-fit: cover;
+    border: 0px solid aliceblue;
+    object-position: 0vw -20vw;
+  }
+
+  .gravemaskinecrop--grenknusning {
+    width: 100vw; /* width of container */
+    height: 700px; /* height of container */
+    object-fit: cover;
+    border: 0px solid aliceblue;
+    object-position: 0vw -70vw;
+  }
+
+  .gravemaskinecrop--maskinudlejning {
+    width: 100vw; /* width of container */
+    height: 700px; /* height of container */
+    object-fit: cover;
+    border: 0px solid aliceblue;
+    object-position: 0vw -10vw;
+  }
+
   .text--box--projekter {
     background-color: rgb(0, 0, 0); /* Fallback color */
     background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
@@ -27,11 +51,91 @@
     font-weight: bold;
     border: 1px solid #f1f1f1;
     position: absolute;
-    top: 28%;
+    top: 39%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
     width: 12%;
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    z-index: 1;
+  }
+  
+  .text--box--projekter--stubfrasning {
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+    backdrop-filter: blur(5px);
+    color: red;
+    font-weight: bold;
+    border: 1px solid #f1f1f1;
+    position: absolute;
+    top: 39%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 15%;
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    z-index: 1;
+  }
+    
+  .text--box--projekter--grenknusning {
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+    backdrop-filter: blur(5px);
+    color: red;
+    font-weight: bold;
+    border: 1px solid #f1f1f1;
+    position: absolute;
+    top: 39%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 16vw;
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    z-index: 1;
+  }
+  
+  .text--box--projekter--maskinudlejning {
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+    backdrop-filter: blur(5px);
+    color: red;
+    font-weight: bold;
+    border: 1px solid #f1f1f1;
+    position: absolute;
+    top: 39%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 18vw;
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    z-index: 1;
+  }
+  
+  .text--box--projekter--rodfrasning {
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+    backdrop-filter: blur(5px);
+    color: red;
+    font-weight: bold;
+    border: 1px solid #f1f1f1;
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 14vw;
     padding: 10px;
     text-align: center;
     font-size: 40px;

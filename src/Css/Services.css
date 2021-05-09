@@ -109,7 +109,7 @@
     color: red;
     font-size: 2em;
     border-right: 1px solid red;
-    padding: 40px 35px 40px 0px;
+    padding: 40px 35px 40px 35px;
     height: 200px;
     font-weight: bold;
 }
@@ -126,6 +126,27 @@
     height: 200px;
     font-weight: bold;
 }
+.nav--link1 {
+    color: red;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px;
+    background-color: transparent;
+    transition: linear 0.15s;
+}
+
+.nav--link1:hover {
+    color: red;
+    padding-top: 29px;
+    text-shadow: 0 0 20px red;
+}
+
+.nav--link1:active {
+    color: orangered;
+    box-shadow: 0;
+    transform: translateY(1px);
+}
 
 .content--text {
     padding: 18px;
@@ -134,7 +155,7 @@
 }
 
 :root {
-    --height: 250px;
+    --height: 610px;
     --lightBoxHeight: 800px;
 }
 
@@ -171,6 +192,191 @@
     background-color: red;
 }
 
+.beskaring1 {
+    height: 100%;
+
+    width: calc(var(--height) * (11 / 16));
+    background: url("../Assets/beskaring1.jpg");
+    background-repeat: no-repeat;
+    background-size: 24vw;
+}
+
+.beskaring2 {
+    height: 100%;
+
+    width: calc(var(--height) * (11 / 16));
+    background: url("../Assets/beskaring2.jpg");
+    background-repeat: no-repeat;
+    background-size: 24vw;
+}
+
+.beskaring3 {
+    height: 100%;
+
+    width: calc(var(--height) * (11 / 16));
+    background: url("../Assets/beskaring3.jpg");
+    background-repeat: no-repeat;
+    background-size: 24vw;
+}
+
+
+.beskaring4 {
+    height: 100%;
+
+    width: calc(var(--height) * (11 / 16));
+    background: url("../Assets/beskaring4.jpg");
+    background-repeat: no-repeat;
+    background-size: 24vw;
+}
+
+
+.beskaring5 {
+    height: 100%;
+
+    width: calc(var(--height) * (16 / 10));
+    background: url("../Assets/beskaring5.jpg");
+    background-repeat: no-repeat;
+    background-size: 51vw;
+}
+
+.beskaring6 {
+    height: 100%;
+
+    width: calc(var(--height) * (16 / 10));
+    background: url("../Assets/beskaring6.jpg");
+    background-repeat: no-repeat;
+    background-size: 51vw;
+}
+
+.beskaring7 {
+    height: 100%;
+
+    width: calc(var(--height) * (11 / 16));
+    background: url("../Assets/beskaring7.jpg");
+    background-repeat: no-repeat;
+    background-size: 24vw;
+}
+
+.beskaring8 {
+    height: 100%;
+
+    width: calc(var(--height) * (11 / 16));
+    background: url("../Assets/beskaring8.jpg");
+    background-repeat: no-repeat;
+    background-size: 24vw;
+}
+
+.Grenknusning1 {
+    height: 100%;
+
+    width: calc(var(--height) * (11 / 16));
+    background: url("../Assets/Grenknusning.jpg");
+    background-repeat: no-repeat;
+    background-size: 24vw;
+}
+
+.Grenknusning2 {
+    height: 100%;
+
+    width: calc(var(--height) * (11 / 16));
+    background: url("../Assets/Grenknusning2.jpg");
+    background-repeat: no-repeat;
+    background-size: 24vw;
+}
+
+.Grenknusning3 {
+    height: 100%;
+
+    width: calc(var(--height) * (11 / 16));
+    background: url("../Assets/Grenknusning3.jpg");
+    background-repeat: no-repeat;
+    background-size: 24vw;
+}
+
+.Grenknusning4 {
+    height: 100%;
+
+    width: calc(var(--height) * (11 / 16));
+    background: url("../Assets/Grenknusning4.jpg");
+    background-repeat: no-repeat;
+    background-size: 24vw;
+}
+
+.Maskinudlejning1 {
+    height: 100%;
+
+    width: calc(var(--height) * (16 / 10));
+    background: url("../Assets/Maskinudlejning1.jpg");
+    background-repeat: no-repeat;
+    background-size: 55vw;
+}
+
+.Maskinudlejning2  {
+    height: 100%;
+
+    width: calc(var(--height) * (16 / 6));
+    background: url("../Assets/Maskinudlejning2.jpg");
+    background-repeat: no-repeat;
+    background-size: 70vw;
+}
+
+.Maskinudlejning3  {
+    height: 100%;
+
+    width: calc(var(--height) * (16 / 10));
+    background: url("../Assets/Maskinudlejning3.jpg");
+    background-repeat: no-repeat;
+    background-size: 53vw;
+}
+
+.Maskinudlejning4  {
+    height: 100%;
+
+    width: calc(var(--height) * (11 / 16));
+    background: url("../Assets/Maskinudlejning4.jpg");
+    background-repeat: no-repeat;
+    background-size: 24vw;
+}
+
+.Maskinudlejning5  {
+    height: 100%;
+
+    width: calc(var(--height) * (11 / 16));
+    background: url("../Assets/Maskinudlejning5.jpg");
+    background-repeat: no-repeat;
+    background-size: 24vw;
+}
+
+.Maskinudlejning6  {
+    height: 100%;
+
+    width: calc(var(--height) * (11 / 16));
+    background: url("../Assets/Maskinudlejning6.jpg");
+    background-repeat: no-repeat;
+    background-size: 24vw;
+}
+
+.Maskinudlejning7  {
+    height: 100%;
+
+    width: calc(var(--height) * (16 / 10));
+    background: url("../Assets/Maskinudlejning7.jpg");
+    background-repeat: no-repeat;
+    background-size: 50vw;
+}
+
+.rodfrasning1  {
+    height: 100%;
+
+    width: calc(var(--height) * (11 / 16));
+    background: url("../Assets/Rodfræsning1.jpg");
+    background-repeat: no-repeat;
+    background-size: 24vw;
+}
+
+
+
+
 .tall-blue {
     height: 100%;
 
@@ -187,7 +393,7 @@
 }
 
 .gallery-section {
-    border: 3px solid yellow;
+    border: 3px solid white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -222,3 +428,4 @@
 .width-override {
     width: calc(var(--lightBoxHeight) * (9 / 16));
 }
+

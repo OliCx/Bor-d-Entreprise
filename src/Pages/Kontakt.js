@@ -25,7 +25,7 @@ const Kontakt = (props) => {
                     <p className='contact--text'>Nybyvej 103 4340 tølløse</p>
                     <img src={map} alt='map' className='map' />
                     <a
-                        href='https://www.facebook.com/'
+                        href='https://www.facebook.com/borodentreprise/'
                         className='contact--text'
                     >
                         Facebook

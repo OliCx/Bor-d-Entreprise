@@ -4,7 +4,7 @@ import '../Css/ServicesSub.css';
 
 import Beskaring from '../Assets/Beskæring.jpg';
 
-const BeskæringGallery = () => {
+const StubfrasningGallery = () => {
     const [lightBox, setLightBox] = useState(false);
     const [imgClass, setImageClass] = useState('');
     const [imgSrc, setImageSrc] = useState('');
@@ -50,8 +50,8 @@ const BeskæringGallery = () => {
             <div className='gallery-container'>
                 <div className='gallery-section'>
                     <div
-                        onClick={(e) => lightBoxOpen(e, false)}
-                        className='big-red'
+                        onClick={(e) => lightBoxOpen(e, true)}
+                        className='beskaring1'
                         src='./image.jpeg'
                     ></div>
                     {/* below replaces big red*/}
@@ -59,68 +59,44 @@ const BeskæringGallery = () => {
                 </div>
                 <div className='gallery-section'>
                     <div
-                        onClick={(e) => lightBoxOpen(e, false)}
-                        className='lil-blue'
-                    ></div>
-                </div>
-                <div className='gallery-section'>
-                    <div
-                        onClick={(e) => lightBoxOpen(e, false)}
-                        className='big-blue'
-                    ></div>
-                </div>
-                <div className='gallery-section'>
-                    <div
-                        onClick={(e) => lightBoxOpen(e, false)}
-                        className='lil-blue'
+                        onClick={(e) => lightBoxOpen(e, true)}
+                        className='beskaring2'
                     ></div>
                 </div>
                 <div className='gallery-section'>
                     <div
                         onClick={(e) => lightBoxOpen(e, true)}
-                        className='tall-red'
-                    ></div>
-                </div>
-                <div className='gallery-section'>
-                    <div
-                        onClick={(e) => lightBoxOpen(e, false)}
-                        className='lil-blue'
-                    ></div>
-                </div>
-                <div className='gallery-section'>
-                    <div
-                        onClick={(e) => lightBoxOpen(e, false)}
-                        className='big-blue'
-                    ></div>
-                </div>
-                <div className='gallery-section'>
-                    <div
-                        onClick={(e) => lightBoxOpen(e, false)}
-                        className='lil-blue'
-                    ></div>
-                </div>
-                <div className='gallery-section'>
-                    <div
-                        onClick={(e) => lightBoxOpen(e, false)}
-                        className='big-blue'
-                    ></div>
-                </div>
-                <div className='gallery-section'>
-                    <div
-                        onClick={(e) => lightBoxOpen(e, false)}
-                        className='lil-red'
-                    ></div>
-                </div>
-                <div className='gallery-section'>
-                    <div
-                        onClick={(e) => lightBoxOpen(e, false)}
-                        className='big-blue'
+                        className='beskaring3'
                     ></div>
                 </div>
                 <div className='gallery-section'>
                     <div
                         onClick={(e) => lightBoxOpen(e, true)}
-                        className='tall-blue'
+                        className='beskaring4'
+                    ></div>
+                </div>
+                <div className='gallery-section'>
+                    <div
+                        onClick={(e) => lightBoxOpen(e, false)}
+                        className='beskaring5'
+                    ></div>
+                </div>
+                <div className='gallery-section'>
+                    <div
+                        onClick={(e) => lightBoxOpen(e, true)}
+                        className='beskaring7'
+                    ></div>
+                </div>
+                <div className='gallery-section'>
+                    <div
+                        onClick={(e) => lightBoxOpen(e, true)}
+                        className='beskaring8'
+                    ></div>
+                </div>
+                <div className='gallery-section'>
+                    <div
+                        onClick={(e) => lightBoxOpen(e, false)}
+                        className='beskaring6'
                     ></div>
                 </div>
             </div>
@@ -128,4 +104,4 @@ const BeskæringGallery = () => {
     );
 };
 
-export default BeskæringGallery;
+export default StubfrasningGallery;

@@ -21,7 +21,7 @@ const Footer = () => {
                     <p>cb@borødentreprise.dk</p>
                 </div>
                 <div className='bb'>
-                    <a href='https://www.facebook.com/' className='bb'>
+                    <a href='https://www.facebook.com/borodentreprise/' className='bb'>
                         Facebook
                     </a>
                 </div>
