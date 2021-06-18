@@ -63,6 +63,12 @@ const StubfrasningGallery = () => {
                         className='rodfrasning2'
                     ></div>
                 </div>
+                <div className='gallery-section'>
+                    <div
+                        onClick={(e) => lightBoxOpen(e, true)}
+                        className='rodfrasning3'
+                    ></div>
+                </div>
             </div>
         </div>
     );

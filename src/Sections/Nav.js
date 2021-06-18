@@ -40,9 +40,29 @@ const Nav = (props) => {
                 >
                     Kontakt
                 </Link>
-                
-            </div>
+                </div>
+                <nav role="navigation" className='navi'>
+  <div id="menuToggle">
+
+    <input type="checkbox" />
+    
+    
+    <span></span>
+    <span></span>
+    <span></span>
+    
+    
+    <ul id="menu">
+      <a href="#"><li>Forside</li></a>
+      <a href="#"><li>Vi udføre</li></a>
+      <a href="#"><li>Kontakt</li></a>
+    </ul>
+  </div>
+</nav>
+            
+            
             <div className='logo--box'></div>
+            
         </div>
     );
 };

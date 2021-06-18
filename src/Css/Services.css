@@ -22,14 +22,14 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 100%;
+    width: 100vw;
     background: rgb(56, 56, 56);
 }
 
 .content--row {
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 100vw;
     height: 500px;
 }
 
@@ -302,6 +302,42 @@
     background-size: 24vw;
 }
 
+.Grenknusning5 {
+    height: 100%;
+
+    width: calc(var(--height) * (11 / 16));
+    background: url("../Assets/Grenknusning5.png");
+    background-repeat: no-repeat;
+    background-size: 24vw;
+}
+
+.Grenknusning6 {
+    height: 100%;
+
+    width: calc(var(--height) * (11 / 16));
+    background: url("../Assets/Grenknusning6.png");
+    background-repeat: no-repeat;
+    background-size: 24vw;
+}
+
+.Grenknusning7 {
+    height: 100%;
+
+    width: calc(var(--height) * (11 / 16));
+    background: url("../Assets/Grenknusning7.jpg");
+    background-repeat: no-repeat;
+    background-size: 24vw;
+}
+
+.Grenknusning8 {
+    height: 100%;
+
+    width: calc(var(--height) * (11 / 16));
+    background: url("../Assets/Grenknusning1.jpg");
+    background-repeat: no-repeat;
+    background-size: 24vw;
+}
+
 .Maskinudlejning1 {
     height: 100%;
 
@@ -365,6 +401,114 @@
     background-size: 50vw;
 }
 
+.Maskinudlejning8  {
+    height: 100%;
+
+    width: calc(var(--height) * (16 / 10));
+    background: url("../Assets/Maskinudlejning.jpg");
+    background-repeat: no-repeat;
+    background-size: 55vw;
+}
+
+.Maskinudlejning9  {
+    height: 100%;
+
+    width: calc(var(--height) * (16 / 10));
+    background: url("../Assets/Maskinudlejning8.jpg");
+    background-repeat: no-repeat;
+    background-size: 52vw;
+}
+
+.Maskinudlejning10  {
+    height: 100%;
+
+    width: calc(var(--height) * (16 / 10));
+    background: url("../Assets/Maskinudlejning9.jpg");
+    background-repeat: no-repeat;
+    background-size: 52vw;
+}
+
+.Maskinudlejning11  {
+    height: 100%;
+
+    width: calc(var(--height) * (16 / 10));
+    background: url("../Assets/Maskinudlejning10.jpg");
+    background-repeat: no-repeat;
+    background-size: 52vw;
+}
+
+.Maskinudlejning12  {
+    height: 100%;
+
+    width: calc(var(--height) * (16 / 13.8));
+    background: url("../Assets/Maskinudlejning11.jpg");
+    background-repeat: no-repeat;
+    background-size: 50vw;
+}
+
+.Maskinudlejning13  {
+    height: 100%;
+
+    width: calc(var(--height) * (16 / 10));
+    background: url("../Assets/Maskinudlejning12.jpg");
+    background-repeat: no-repeat;
+    background-size: 50vw;
+}
+
+.Maskinudlejning14  {
+    height: 100%;
+
+    width: calc(var(--height) * (16 / 10));
+    background: url("../Assets/Maskinudlejning13.jpg");
+    background-repeat: no-repeat;
+    background-size: 50vw;
+}
+
+.Maskinudlejning15  {
+    height: 100%;
+
+    width: calc(var(--height) * (11 / 12));
+    background: url("../Assets/Maskinudlejning14.jpg");
+    background-repeat: no-repeat;
+    background-size: 29vw;
+}
+
+.Maskinudlejning16  {
+    height: 100%;
+
+    width: calc(var(--height) * (11 / 16));
+    background: url("../Assets/Maskinudlejning15.jpg");
+    background-repeat: no-repeat;
+    background-size: 24vw;
+}
+
+.Maskinudlejning17  {
+    height: 100%;
+
+    width: calc(var(--height) * (11 / 16));
+    background: url("../Assets/Maskinudlejning16.jpg");
+    background-repeat: no-repeat;
+    background-size: 24vw;
+}
+
+.Maskinudlejning18  {
+    height: 100%;
+
+    width: calc(var(--height) * (11 / 16));
+    background: url("../Assets/Maskinudlejning17.jpg");
+    background-repeat: no-repeat;
+    background-size: 24vw;
+}
+
+
+.stubfrasning1  {
+    height: 100%;
+
+    width: calc(var(--height) * (11 / 16));
+    background: url("../Assets/Stupfræsning.jpg");
+    background-repeat: no-repeat;
+    background-size: 24vw;
+}
 .rodfrasning1  {
     height: 100%;
 
@@ -374,6 +518,23 @@
     background-size: 24vw;
 }
 
+.rodfrasning2  {
+    height: 100%;
+
+    width: calc(var(--height) * (11 / 16));
+    background: url("../Assets/Rodfræsning.jpg");
+    background-repeat: no-repeat;
+    background-size: 24vw;
+}
+
+.rodfrasning3  {
+    height: 100%;
+
+    width: calc(var(--height) * (11 / 16));
+    background: url("../Assets/Rodfræsning2.jpg");
+    background-repeat: no-repeat;
+    background-size: 24vw;
+}
 
 
 
@@ -429,3 +590,9 @@
     width: calc(var(--lightBoxHeight) * (9 / 16));
 }
 
+@media screen and (max-width: 1000px) {
+     
+    {
+      background-color: lightgreen;
+    }
+  }

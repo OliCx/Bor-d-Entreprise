@@ -60,7 +60,7 @@ const StubfrasningGallery = () => {
                 <div className='gallery-section'>
                     <div
                         onClick={(e) => lightBoxOpen(e, true)}
-                        className='Grenknusning2'
+                        className='Grenknusning8'
                     ></div>
                 </div>
                 <div className='gallery-section'>
@@ -74,8 +74,30 @@ const StubfrasningGallery = () => {
                         onClick={(e) => lightBoxOpen(e, true)}
                         className='Grenknusning4'
                     ></div>
-                
-               
+                </div>
+                <div className='gallery-section'>
+                    <div
+                        onClick={(e) => lightBoxOpen(e, true)}
+                        className='Grenknusning2'
+                    ></div>
+                </div>
+                <div className='gallery-section'>
+                    <div
+                        onClick={(e) => lightBoxOpen(e, true)}
+                        className='Grenknusning5'
+                    ></div>
+                </div>
+                <div className='gallery-section'>
+                    <div
+                        onClick={(e) => lightBoxOpen(e, true)}
+                        className='Grenknusning6'
+                    ></div>
+                </div>
+                <div className='gallery-section'>
+                    <div
+                        onClick={(e) => lightBoxOpen(e, true)}
+                        className='Grenknusning7'
+                    ></div>
                 </div>
             </div>
         </div>

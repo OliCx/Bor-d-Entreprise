@@ -37,6 +37,7 @@ const Hero = (props) => {
     <div>
       <div className="hero--container">
         <div className="text--box">Borød Entreprise</div>
+        <a href='https://www.facebook.com/borodentreprise/'  className="facebook">Facebook</a>
         <img
           className={`gravemaskinetest gravemaskinecrop  ${imageRender === 2 ? ('rendered') : ('hidden')} ${imageRender === 2 ? ('unzoomed') : ('zoomed')}`}
           src={Forside1}

@@ -94,7 +94,70 @@ const StubfrasningGallery = () => {
                     ></div>
                 </div>
                 <div className='gallery-section'>
-                   
+                <div
+                        onClick={(e) => lightBoxOpen(e, false)}
+                        className='Maskinudlejning8'
+                    ></div>
+                </div>
+                <div className='gallery-section'>
+                <div
+                        onClick={(e) => lightBoxOpen(e, true)}
+                        className='Maskinudlejning15'
+                    ></div>
+                </div>
+                <div className='gallery-section'>
+                <div
+                        onClick={(e) => lightBoxOpen(e, false)}
+                        className='Maskinudlejning9'
+                    ></div>
+                </div>
+                <div className='gallery-section'>
+                <div
+                        onClick={(e) => lightBoxOpen(e, false)}
+                        className='Maskinudlejning16'
+                    ></div>
+                </div>
+                <div className='gallery-section'>
+                <div
+                        onClick={(e) => lightBoxOpen(e, false)}
+                        className='Maskinudlejning17'
+                    ></div>
+                </div>
+                <div className='gallery-section'>
+                <div
+                        onClick={(e) => lightBoxOpen(e, false)}
+                        className='Maskinudlejning10'
+                    ></div>
+                </div>
+                <div className='gallery-section'>
+                <div
+                        onClick={(e) => lightBoxOpen(e, false)}
+                        className='Maskinudlejning11'
+                    ></div>
+                </div>
+                <div className='gallery-section'>
+                <div
+                        onClick={(e) => lightBoxOpen(e, false)}
+                        className='Maskinudlejning18'
+                    ></div>
+                </div>
+                <div className='gallery-section'>
+                <div
+                        onClick={(e) => lightBoxOpen(e, false)}
+                        className='Maskinudlejning12'
+                    ></div>
+                </div>
+                <div className='gallery-section'>
+                <div
+                        onClick={(e) => lightBoxOpen(e, false)}
+                        className='Maskinudlejning13'
+                    ></div>
+                </div>
+                <div className='gallery-section'>
+                <div
+                        onClick={(e) => lightBoxOpen(e, false)}
+                        className='Maskinudlejning14'
+                    ></div>
                 </div>
             </div>
         </div>
