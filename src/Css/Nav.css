@@ -325,7 +325,7 @@
         /* to stop flickering of text in safari */
 
         transform-origin: 0% 0%;
-        transform: translate(-52px, -100px);
+        transform: translate(-10px, -400px);
 
         transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
     }
@@ -339,7 +339,7 @@
  * And let's slide it in from the left
  */
     #menuToggle input:checked ~ ul {
-        transform: translate(0%, -7vw);
+        transform: translate(-22px, 0vw);
     }
 }
 

@@ -28,6 +28,7 @@
     text-align: end;
     justify-content: space-evenly;
     color: white;
+    min-width: 220px;
 }
 
 .footer--container--bottom {
