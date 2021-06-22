@@ -605,14 +605,24 @@
         margin-top: 00px;
     }
 
-    .content--text {
+    .ud-container {
         width: 100%;
     }
     .mobile {
-        display: block;
+        display: flex;
     }
 
     .desktop {
         display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .content--title--right {
+        font-size: 24px;
+    }
+
+    .content--title--left {
+        font-size: 24px;
     }
 }

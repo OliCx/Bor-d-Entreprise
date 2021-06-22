@@ -35,7 +35,7 @@ const Services = (props) => {
                             className='orson--img'
                         />
                     </div>
-                    <div className='content--text'>
+                    <div className='content--text ud-container'>
                         <Link
                             to='/beskaring'
                             className='content--title--left nav--link1 '
@@ -78,7 +78,7 @@ const Services = (props) => {
                             className='orson--img5'
                         />
                     </div>
-                    <div className='content--text mobile'>
+                    <div className='content--text ud-container mobile'>
                         <Link
                             to='/stubfrasning'
                             className='content--title--left nav--link1'
@@ -113,7 +113,7 @@ Gravemaskiner fra 8 ton og op lejes ikke ud uden fører.
                             className='orson--img3'
                         />
                     </div>
-                    <div className='content--text'>
+                    <div className='content--text ud-container'>
                         <Link
                             to='/grenknusning'
                             className='content--title--left nav--link1'
@@ -128,7 +128,7 @@ Gravemaskiner fra 8 ton og op lejes ikke ud uden fører.
                     </div>
                 </div>
                 <div className='content--row'>
-                    <div className='content--text desktop'>
+                    <div className='content--text  desktop'>
                         <p className='content--text'>
                             Vi har gravemaskiner til udlejning fra 1.5 til 30
                             Ton. På bælter Gravemaskiner på hjul op til 15 Ton.
@@ -158,7 +158,13 @@ Gravemaskiner fra 8 ton og op lejes ikke ud uden fører.
                             className='orson--img3'
                         />
                     </div>
-                    <div className='content--text mobile'>
+                    <div className='content--text ud-container mobile'>
+                        <Link
+                            to='/maskinudlejning'
+                            className='content--title--left nav--link1'
+                        >
+                            Maskinudlejning
+                        </Link>
                         <p className='content--text'>
                             Vi har gravemaskiner til udlejning fra 1.5 til 30
                             Ton. På bælter Gravemaskiner på hjul op til 15 Ton.
@@ -166,12 +172,6 @@ Gravemaskiner fra 8 ton og op lejes ikke ud uden fører.
                             større maskiner. Gravemaskiner fra 8 ton og op lejes
                             ikke ud uden fører.
                         </p>
-                        <Link
-                            to='/maskinudlejning'
-                            className='content--title--right nav--link1'
-                        >
-                            Maskinudlejning
-                        </Link>
                     </div>
                 </div>
                 <div className='content--row'>
@@ -182,7 +182,7 @@ Gravemaskiner fra 8 ton og op lejes ikke ud uden fører.
                             className='orson--img2'
                         />
                     </div>
-                    <div className='content--text'>
+                    <div className='content--text ud-container'>
                         <Link
                             to='/rodfrasning'
                             className='content--title--left nav--link1'
