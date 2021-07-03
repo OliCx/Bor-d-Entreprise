@@ -35,7 +35,7 @@ const Services = (props) => {
                             className='orson--img'
                         />
                     </div>
-                    <div className='content--text'>
+                    <div className='content--text '>
                         <Link
                             to='/beskaring'
                             className='content--title--left nav--link1 '
