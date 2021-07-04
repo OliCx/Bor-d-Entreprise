@@ -198,7 +198,8 @@
     width: calc(var(--height) * (11 / 16));
     background: url('../Assets/beskaring1.jpg');
     background-repeat: no-repeat;
-    background-size: 24vw;
+    background-size: contain;
+    max-width: 85vw;
 }
 
 .beskaring2 {
@@ -207,7 +208,8 @@
     width: calc(var(--height) * (11 / 16));
     background: url('../Assets/beskaring2.jpg');
     background-repeat: no-repeat;
-    background-size: 24vw;
+    background-size: contain;
+    max-width: 85vw;
 }
 
 .beskaring3 {
@@ -216,7 +218,8 @@
     width: calc(var(--height) * (11 / 16));
     background: url('../Assets/beskaring3.jpg');
     background-repeat: no-repeat;
-    background-size: 24vw;
+    background-size: contain;
+    max-width: 85vw;
 }
 
 .beskaring4 {
@@ -225,7 +228,8 @@
     width: calc(var(--height) * (11 / 16));
     background: url('../Assets/beskaring4.jpg');
     background-repeat: no-repeat;
-    background-size: 24vw;
+    background-size: contain;
+    max-width: 85vw;
 }
 
 .beskaring5 {
@@ -234,7 +238,8 @@
     width: calc(var(--height) * (16 / 10));
     background: url('../Assets/beskaring5.jpg');
     background-repeat: no-repeat;
-    background-size: 51vw;
+    background-size: contain;
+    max-width: 85vw;
 }
 
 .beskaring6 {
@@ -243,7 +248,8 @@
     width: calc(var(--height) * (16 / 10));
     background: url('../Assets/beskaring6.jpg');
     background-repeat: no-repeat;
-    background-size: 51vw;
+    background-size: contain;
+    max-width: 85vw;
 }
 
 .beskaring7 {
@@ -252,7 +258,8 @@
     width: calc(var(--height) * (11 / 16));
     background: url('../Assets/beskaring7.jpg');
     background-repeat: no-repeat;
-    background-size: 24vw;
+    background-size: contain;
+    max-width: 85vw;
 }
 
 .beskaring8 {
@@ -261,7 +268,8 @@
     width: calc(var(--height) * (11 / 16));
     background: url('../Assets/beskaring8.jpg');
     background-repeat: no-repeat;
-    background-size: 24vw;
+    background-size: contain;
+    max-width: 85vw;
 }
 
 .Grenknusning1 {
@@ -270,7 +278,8 @@
     width: calc(var(--height) * (11 / 16));
     background: url('../Assets/Grenknusning.jpg');
     background-repeat: no-repeat;
-    background-size: 24vw;
+    background-size: contain;
+    max-width: 85vw;
 }
 
 .Grenknusning2 {
@@ -279,7 +288,8 @@
     width: calc(var(--height) * (11 / 16));
     background: url('../Assets/Grenknusning2.jpg');
     background-repeat: no-repeat;
-    background-size: 24vw;
+    background-size: contain;
+    max-width: 85vw;
 }
 
 .Grenknusning3 {
@@ -288,7 +298,8 @@
     width: calc(var(--height) * (11 / 16));
     background: url('../Assets/Grenknusning3.jpg');
     background-repeat: no-repeat;
-    background-size: 24vw;
+    background-size: contain;
+    max-width: 85vw;
 }
 
 .Grenknusning4 {
@@ -297,7 +308,8 @@
     width: calc(var(--height) * (11 / 16));
     background: url('../Assets/Grenknusning4.jpg');
     background-repeat: no-repeat;
-    background-size: 24vw;
+    background-size: contain;
+    max-width: 85vw;
 }
 
 .Grenknusning5 {
@@ -306,7 +318,8 @@
     width: calc(var(--height) * (11 / 16));
     background: url('../Assets/Grenknusning5.png');
     background-repeat: no-repeat;
-    background-size: 24vw;
+    background-size: contain;
+    max-width: 85vw;
 }
 
 .Grenknusning6 {
@@ -315,7 +328,8 @@
     width: calc(var(--height) * (11 / 16));
     background: url('../Assets/Grenknusning6.png');
     background-repeat: no-repeat;
-    background-size: 24vw;
+    background-size: contain;
+    max-width: 85vw;
 }
 
 .Grenknusning7 {
@@ -324,7 +338,8 @@
     width: calc(var(--height) * (11 / 16));
     background: url('../Assets/Grenknusning7.jpg');
     background-repeat: no-repeat;
-    background-size: 24vw;
+    background-size: contain;
+    max-width: 85vw;
 }
 
 .Grenknusning8 {
@@ -333,7 +348,8 @@
     width: calc(var(--height) * (11 / 16));
     background: url('../Assets/Grenknusning1.jpg');
     background-repeat: no-repeat;
-    background-size: 24vw;
+    background-size: contain;
+    max-width: 85vw;
 }
 
 .Maskinudlejning1 {
@@ -342,7 +358,8 @@
     width: calc(var(--height) * (16 / 10));
     background: url('../Assets/Maskinudlejning1.jpg');
     background-repeat: no-repeat;
-    background-size: 55vw;
+    background-size: contain;
+    max-width: 85vw;
 }
 
 .Maskinudlejning2 {
@@ -351,7 +368,8 @@
     width: calc(var(--height) * (16 / 6));
     background: url('../Assets/Maskinudlejning2.jpg');
     background-repeat: no-repeat;
-    background-size: 70vw;
+    background-size: contain;
+    max-width: 85vw;
 }
 
 .Maskinudlejning3 {
@@ -360,7 +378,8 @@
     width: calc(var(--height) * (16 / 10));
     background: url('../Assets/Maskinudlejning3.jpg');
     background-repeat: no-repeat;
-    background-size: 53vw;
+    background-size: contain;
+    max-width: 85vw;
 }
 
 .Maskinudlejning4 {
@@ -369,7 +388,8 @@
     width: calc(var(--height) * (11 / 16));
     background: url('../Assets/Maskinudlejning4.jpg');
     background-repeat: no-repeat;
-    background-size: 24vw;
+    background-size: contain;
+    max-width: 85vw;
 }
 
 .Maskinudlejning5 {
@@ -378,7 +398,8 @@
     width: calc(var(--height) * (11 / 16));
     background: url('../Assets/Maskinudlejning5.jpg');
     background-repeat: no-repeat;
-    background-size: 24vw;
+    background-size: contain;
+    max-width: 85vw;
 }
 
 .Maskinudlejning6 {
@@ -387,7 +408,8 @@
     width: calc(var(--height) * (11 / 16));
     background: url('../Assets/Maskinudlejning6.jpg');
     background-repeat: no-repeat;
-    background-size: 24vw;
+    background-size: contain;
+    max-width: 85vw;
 }
 
 .Maskinudlejning7 {
@@ -396,7 +418,8 @@
     width: calc(var(--height) * (16 / 10));
     background: url('../Assets/Maskinudlejning7.jpg');
     background-repeat: no-repeat;
-    background-size: 50vw;
+    background-size: contain;
+    max-width: 85vw;
 }
 
 .Maskinudlejning8 {
@@ -405,7 +428,8 @@
     width: calc(var(--height) * (16 / 10));
     background: url('../Assets/Maskinudlejning.jpg');
     background-repeat: no-repeat;
-    background-size: 55vw;
+    background-size: contain;
+    max-width: 85vw;
 }
 
 .Maskinudlejning9 {
@@ -414,7 +438,8 @@
     width: calc(var(--height) * (16 / 10));
     background: url('../Assets/Maskinudlejning8.jpg');
     background-repeat: no-repeat;
-    background-size: 52vw;
+    background-size: contain;
+    max-width: 85vw;
 }
 
 .Maskinudlejning10 {
@@ -423,7 +448,8 @@
     width: calc(var(--height) * (16 / 10));
     background: url('../Assets/Maskinudlejning9.jpg');
     background-repeat: no-repeat;
-    background-size: 52vw;
+    background-size: contain;
+    max-width: 85vw;
 }
 
 .Maskinudlejning11 {
@@ -432,7 +458,8 @@
     width: calc(var(--height) * (16 / 10));
     background: url('../Assets/Maskinudlejning10.jpg');
     background-repeat: no-repeat;
-    background-size: 52vw;
+    background-size: contain;
+    max-width: 85vw;
 }
 
 .Maskinudlejning12 {
@@ -441,7 +468,8 @@
     width: calc(var(--height) * (16 / 13.8));
     background: url('../Assets/Maskinudlejning11.jpg');
     background-repeat: no-repeat;
-    background-size: 50vw;
+    background-size: contain;
+    max-width: 85vw;
 }
 
 .Maskinudlejning13 {
@@ -450,7 +478,8 @@
     width: calc(var(--height) * (16 / 10));
     background: url('../Assets/Maskinudlejning12.jpg');
     background-repeat: no-repeat;
-    background-size: 50vw;
+    background-size: contain;
+    max-width: 85vw;
 }
 
 .Maskinudlejning14 {
@@ -459,7 +488,8 @@
     width: calc(var(--height) * (16 / 10));
     background: url('../Assets/Maskinudlejning13.jpg');
     background-repeat: no-repeat;
-    background-size: 50vw;
+    background-size: contain;
+    max-width: 85vw;
 }
 
 .Maskinudlejning15 {
@@ -468,7 +498,8 @@
     width: calc(var(--height) * (11 / 12));
     background: url('../Assets/Maskinudlejning14.jpg');
     background-repeat: no-repeat;
-    background-size: 29vw;
+    background-size: contain;
+    max-width: 85vw;
 }
 
 .Maskinudlejning16 {
@@ -477,7 +508,8 @@
     width: calc(var(--height) * (11 / 16));
     background: url('../Assets/Maskinudlejning15.jpg');
     background-repeat: no-repeat;
-    background-size: 24vw;
+    background-size: contain;
+    max-width: 85vw;
 }
 
 .Maskinudlejning17 {
@@ -486,7 +518,8 @@
     width: calc(var(--height) * (11 / 16));
     background: url('../Assets/Maskinudlejning16.jpg');
     background-repeat: no-repeat;
-    background-size: 24vw;
+    background-size: contain;
+    max-width: 85vw;
 }
 
 .Maskinudlejning18 {
@@ -495,7 +528,8 @@
     width: calc(var(--height) * (11 / 16));
     background: url('../Assets/Maskinudlejning17.jpg');
     background-repeat: no-repeat;
-    background-size: 24vw;
+    background-size: contain;
+    max-width: 85vw;
 }
 
 .stubfrasning1 {
@@ -504,7 +538,8 @@
     width: calc(var(--height) * (11 / 16));
     background: url('../Assets/Stupfræsning.jpg');
     background-repeat: no-repeat;
-    background-size: 24vw;
+    background-size: contain;
+    max-width: 85vw;
 }
 .rodfrasning1 {
     height: 100%;
@@ -512,7 +547,8 @@
     width: calc(var(--height) * (11 / 16));
     background: url('../Assets/Rodfræsning1.jpg');
     background-repeat: no-repeat;
-    background-size: 24vw;
+    background-size: contain;
+    max-width: 85vw;
 }
 
 .rodfrasning2 {
@@ -521,7 +557,8 @@
     width: calc(var(--height) * (11 / 16));
     background: url('../Assets/Rodfræsning.jpg');
     background-repeat: no-repeat;
-    background-size: 24vw;
+    background-size: contain;
+    max-width: 85vw;
 }
 
 .rodfrasning3 {
@@ -530,7 +567,8 @@
     width: calc(var(--height) * (11 / 16));
     background: url('../Assets/Rodfræsning2.jpg');
     background-repeat: no-repeat;
-    background-size: 24vw;
+    background-size: contain;
+    max-width: 85vw;
 }
 
 .tall-blue {
@@ -554,13 +592,14 @@
     justify-content: center;
     align-items: center;
     height: var(--height);
+    max-height: 100vw;
 }
 
 .full-overlay {
     display: flex;
     justify-content: center;
     width: 100vw;
-    height: 100vw;
+    height: 100vh;
     position: fixed;
     top: 0;
     left: 0;
@@ -578,11 +617,12 @@
 
 .height-override {
     height: var(--lightBoxHeight);
-    width: calc(var(--lightBoxHeight) * (16 / 9));
+    width: calc(var(--lightBoxHeight) * (16 / 9 * 1.5));
+    background-size: 100%;
 }
 
 .width-override {
-    width: calc(var(--lightBoxHeight) * (9 / 16));
+    width: calc(var(--lightBoxHeight) * (9 / 16 * 1.5));
 }
 
 .mobile {
